@@ -5,19 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Center for Healthy Coping  - home</title>
-  <meta name="title" content="Center for Healthy Coping - home">
+  <title>Center for Healthy Coping - about</title>
+  <meta name="title" content="Center for Healthy Coping - about">
   <meta name="description" content="Center for Healthy Coping">
+
+      <!--
+         swiper-js
+     -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   <!-- 
     - favicon
   -->
-  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
-  <link rel="shortcut icon" href="assets/images/cfhc_logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/ZARA_LOGO.png" type="image/svg+xml">
 
   <!-- 
     - google font link
@@ -63,14 +63,14 @@
     <div class="container">
 
       <a href="#" class="logo" style="font-size: larger;">
-        <img src="./assets/images/cfhc_logo_w.png" style=" width: max(12vw,100px);"alt="Logo">
+       <img src="./assets/images/cfhc_logo_w.png" style=" width: max(12vw,100px);"alt="Logo">
       </a>
       <nav class="navbar" data-navbar>
 
         <div class="navbar-top">
 
           <a href="#" class="logo">
-            <img src="./assets/images/cfhc_logo.png" width="136" height="46" alt="CFHC home">
+            <img src="./assets/images/cfhc_logo_w.png" width="136" height="46" alt="CFHC home">
           </a>
 
           <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
@@ -99,9 +99,9 @@
           <li class="navbar-item">
             <a href="conntact.html" class="navbar-link title-md">Contact Us</a>
           </li>
- -->
+        -->
           <li class="navbar-item">
-            <a href="https://headway.co/providers/erica-schwartz-2?utm_source=pem&utm_medium=direct_link&utm_campaign=98106" class="navbar-link title-md" style="background-color: #e3ab25; border-radius: 6px;">Schedule</a>
+            <a href="appointment.html" class="navbar-link title-md" style="background-color: #e3ab25; border-radius: 6px;">Schedule</a>
           </li>
         </ul>
 
@@ -160,155 +160,60 @@
         - #HERO
       -->
 
-      <section class="section hero" style="background-image: url('./assets/images/hero-unsplash.jpg')" aria-label="home">
+      <section class="section hero" style="background-image: url('./assets/images/hero-bg.png')" aria-label="services">
         <div class="container">
-
           <div class="hero-content">
-
-          
-            <div class="hero-card" data-reveal="left">
-
-              <p class="title-lg card-text">
-                Welcome To the Center for Healthy Coping
-              </p>
-
-              <div class="wrapper">
-                <a href="https://headway.co/providers/erica-schwartz-2?utm_source=pem&utm_medium=direct_link&utm_campaign=98106">
-                  <button class="btn has-before">
-                    <span class="span title-md">Schedule a session</span>
-                  </button>
-              </a>
-              </div>
-
-            </div>
-
+            <p class="hero-subtitle has-before" data-reveal="left">Learn About <br> Center for Healthy Coping</p>
+            <h1 class="headline-lg hero-title" data-reveal="left">
+              Welcome!
+            </h1>
+  
           </div>
-
           <figure class="hero-banner" data-reveal="right">
-            <img src="./assets/images/hero-banner.png" width="590" height="517" loading="eager" alt="hero banner"
-              class="w-100">
+            <img src="./assets/images/hero-banner.png" width="519" height="517" loading="eager" alt="hero banner" style="width: 600px; height: 500px;">
           </figure>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
-
-      <section class="service" aria-label="service">
-        <div class="container">
-          <ul class="service-list">
-            <li>
-              <div class="service-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/counseling.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <h3 class="headline-sm card-title">
-                  <a href="#">Mental Health Therapies</a>
-                </h3>
-                <p class="card-text">
-                  ADHD, Anxiety, Bipolar Disorder and Depression.
-                </p>
-                <button class="btn-circle" aria-label="read more about massage therapy">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-              </div>
-            </li>
-            <li>
-              <div class="service-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/relationship.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <h3 class="headline-sm card-title">
-                  <a href="#">Relationships</a>
-                </h3>
-                <p class="card-text">
-                  Family Relationships and Intimate / Romantic Relationships.
-                </p>
-                <button class="btn-circle" aria-label="read more about physical rehabilitation">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-              </div>
-            </li>
-            <li>
-              <div class="service-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/lifeevents.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <h3 class="headline-sm card-title">
-                  <a href="#">Life Events</a>
-                </h3>
-                <p class="card-text">
-                  Grief / Bereavement, Life Transitions
-                </p>
-                <button class="btn-circle" aria-label="read more about acupuncture">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-              </div>
-            </li>
-            <li>
-              <div class="service-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/support.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <h3 class="headline-sm card-title">
-                  <a href="#">Support Services</a>
-                </h3>
-                <p class="card-text">
-                  Minfullness and Stress
-                </p>
-                <button class="btn-circle" aria-label="read more about aromatherapy">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-              </div>
-            </li>
-          </ul>
         </div>
       </section>
       
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
+ 
        <section class="section about" aria-labelledby="about-label">
         <div class="container">
           <div class="about-content">
-            <h2 class="headline-md" data-reveal="left">About our therapies</h2>
+            <p class="section-subtitle title-lg has-after" id="about-label" data-reveal="left"></p>
+            <h2 class="headline-md" data-reveal="left">About Erica</h2>
             <p class="section-text" data-reveal="left">
-              I am dedicated to providing exceptional care and holistic healing to my clients. I bring a wealth of knowledge and expertise to our practice, ensuring that every individual receives personalized treatment tailored to their specific needs using the following tools.
+              Hello! I’m Erica Schwartz, a therapist dedicated to helping you navigate life’s challenges with a balanced and practical approach. I use a blend of Cognitive Behavioral Therapy (CBT), Solution-Focused Therapy, and Mindfulness to address anxiety, depression, grief, relationship issues, and parenting concerns.
+              </p>
+              <p class="section-text" data-reveal="left">With CBT, we'll examine and reframe unhelpful thought patterns. Solution-Focused Therapy will guide us in setting and achieving practical goals, while Mindfulness will help you stay grounded and present through it all. 
+              </p>
+              <p class="section-text" data-reveal="left">I earned a Bachelor's degree in Psychology with a minor in Sociology from the University of Arizona. I then went on to obtain a Master of Science in Social Work from the University of Texas at Austin (Hook 'em Horns!), specializing in work with children and families. 
+             
             </p>
             <ul class="tab-list" data-reveal="left">
               <li>
-                <button class="tab-btn ">Cognitive Behavioral Health</button>
+                <button class="tab-btn">Children</button>
               </li>
               <li>
-                <button class="tab-btn">Solution-Focused Therapy</button>
+                <button class="tab-btn">Adolescents</button>
               </li>
               <li>
-                <button class="tab-btn">Mindfulness</button>
+                <button class="tab-btn">Adults</button>
               </li>
             </ul>
             <p class="tab-text" data-reveal="left">
-              With CBT, we'll examine and reframe unhelpful thought patterns. Solution-Focused Therapy will guide us in setting and achieving practical goals, while Mindfulness will help you stay grounded and present through it all.
+              My diverse experience spans various settings, from providing in-home support to hospice patients and their families, to counseling bereaved parents and siblings. I’ve also worked in community health environments, offering guidance and support to parents and their families. For the past three years, I’ve effectively delivered virtual therapy to adults dealing with depression, anxiety, and grief, employing a combination of CBT, solution-focused therapy, and mindfulness techniques. 
+
+              <br><br>Whether you’re dealing with emotional ups and downs, relationship difficulties, or the complexities of parenting, I’m here to provide support, clarity, and effective strategies to help you move forward with confidence and calm. Let’s work together to create positive change, to develop healthy coping skills, and to find balance in your life.   
+            </p>
             <div class="wrapper">
               <ul class="about-list">
                 <li class="about-item" data-reveal="left">
                   <ion-icon name="checkmark-circle-outline"></ion-icon>
-                  <span class="span">Certified and Licensed in Arizona, California, and Virginia</span>
+                  <span class="span">Certified and Licensed LCSW</span>
                 </li>
                 <li class="about-item" data-reveal="left">
                   <ion-icon name="checkmark-circle-outline"></ion-icon>
-                  <span class="span">Years of Clinical Experience</span>
+                  <span class="span">15 Years of Clinical Experience</span>
                 </li>
                 <li class="about-item" data-reveal="left">
                   <ion-icon name="checkmark-circle-outline"></ion-icon>
@@ -318,93 +223,35 @@
                   <ion-icon name="checkmark-circle-outline"></ion-icon>
                   <span class="span">Compassionate and Empathetic Care</span>
                 </li>
-                <li class="about-item" data-reveal="left">
-                  <ion-icon name="checkmark-circle-outline"></ion-icon>
-                  <span class="span">Self pay and Insurance Accepted</span>
-                </li>
               </ul>
             </div>
           </div>
-          <figure class="about-banner-home" data-reveal="right">
-            <img src="./assets/images/therapies.png"  height="678" loading="lazy" alt="about therapists banner" class="w-100">
+          <figure class="about-banner" data-reveal="right">
+            <img src="./assets/images/cfhc_logo.png" width="554" height="678" loading="lazy" alt="about therapists banner" class="w-100">
           </figure>
         </div>
-      </section>
-      
+      </section> 
+            
 
 
 
-
-      <!-- 
-        - #BLOG
-      -->
-
-      <section class="section blog" aria-labelledby="blog-label">
-        <div class="container">
-          <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
-            Therapist Insights
-          </p>
-          <h2 class="section-title headline-md text-center" data-reveal="bottom">Latest Articles</h2>
-          <ul class="grid-list">
-            <li>
-              <div class="blog-card has-before has-after" data-reveal="bottom">
-                <div class="meta-wrapper">
-                  <div class="card-meta">
-                    <ion-icon name="person-outline"></ion-icon>
-                    <span class="span">By Therapist</span>
-                  </div>
-                  <div class="card-meta">
-                    <ion-icon name="folder-outline"></ion-icon>
-                    <span class="span">Health Tips</span>
-                  </div>
-                </div>
-                <h3 class="headline-sm card-title">The Importance of Self-Care for Therapists</h3>
-                <time class="title-sm date" datetime="09-02-2024">09-02-2024</time>
-                <p class="card-text">Exploring strategies for maintaining physical and emotional well-being while providing quality care to clients.</p>
-                <a href="#" class="btn-text title-lg">Read More</a>
-              </div>
-            </li>
-            <li>
-              <div class="blog-card has-before has-after" data-reveal="bottom">
-                <div class="meta-wrapper">
-                  <div class="card-meta">
-                    <ion-icon name="person-outline"></ion-icon>
-                    <span class="span">By Therapist</span>
-                  </div>
-                  <div class="card-meta">
-                    <ion-icon name="folder-outline"></ion-icon>
-                    <span class="span">Wellness Tips</span>
-                  </div>
-                </div>
-                <h3 class="headline-sm card-title">Mindfulness Techniques for Therapists</h3>
-                <time class="title-sm date" datetime="09-02-2024">09-02-2024</time>
-                <p class="card-text">Exploring mindfulness practices to enhance focus, reduce stress, and improve client interactions.</p>
-                <a href="#" class="btn-text title-lg">Read More</a>
-              </div>
-            </li>
-            <li>
-              <div class="blog-card has-before has-after" data-reveal="bottom">
-                <div class="meta-wrapper">
-                  <div class="card-meta">
-                    <ion-icon name="person-outline"></ion-icon>
-                    <span class="span">By Therapist</span>
-                  </div>
-                  <div class="card-meta">
-                    <ion-icon name="folder-outline"></ion-icon>
-                    <span class="span">Prof-Dev</span>
-                  </div>
-                </div>
-                <h3 class="headline-sm card-title">Navigating Boundaries in Therapeutic Relationships</h3>
-                <time class="title-sm date" datetime="2024-02-09">09-02-2024</time>
-                <p class="card-text">Exploring ethical considerations and practical strategies for establishing and maintaining boundaries with clients.</p>
-                <a href="#" class="btn-text title-lg">Read More</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      
-
+     
+             
+          <!-- Gallery 
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="./assets/images/gall1.avif" alt="Gallery"></div>
+    <div class="swiper-slide"> <img src="./assets/images/blog-3.jpg" alt="Gallery"></div>
+    <div class="swiper-slide"> <img src="./assets/images/gall2.avif" alt="Gallery"></div>
+    <div class="swiper-slide"> <img src="./assets/images/gall3.avif" alt="Gallery"></div>
+    <div class="swiper-slide"> <img src="./assets/images/blog-1.jpg" alt="Gallery"></div>
+    <div class="swiper-slide"> <img src="./assets/images/gall4.avif" alt="Gallery"></div>
+    <div class="swiper-slide"> <img src="./assets/images/gall5.avif" alt="Gallery"></div>
+    <div class="swiper-slide"> <img src="./assets/images/blog-3.jpg" alt="Gallery"></div>
+  </div>
+</div>
+-->
     </article>
   </main>
 
@@ -539,6 +386,7 @@
     </div>
   </footer>
   
+  
 
 
 
@@ -564,8 +412,51 @@
     - ionicon link
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1, 
+      spaceBetween: 10,
+      centeredSlides: true,
+      loop: true, 
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+
+    if (window.matchMedia("(max-width: 480px)").matches) {
+    swiper.destroy(); 
+
+    new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10, 
+        centeredSlides: false, 
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
+}
+if (window.matchMedia("(min-width: 480px) and (max-width: 770px)").matches) { 
+    swiper.destroy();
+
+    new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10, 
+        centeredSlides: false, 
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
+}
+
+</script>
 
 </html>
